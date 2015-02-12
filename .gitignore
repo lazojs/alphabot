@@ -26,3 +26,8 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+# created by unit test
+test/cmp-a
+
+.DS_Store
