@@ -1,0 +1,52 @@
+{
+  "name": "alphabot",
+  "description": "Lazo node module templates for creating independent modules that can be combined to create an application.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "keywords": [
+    "lazojs",
+    "template",
+    "module",
+    "generator"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/lazojs/alphabot/blob/master/LICENSE"
+    }
+  ],
+  "author": {
+    "name": "Jason Strimpel",
+    "email": "jstrimpel@gmail.com"
+  },
+  "bugs": {
+    "web": "https://github.com/lazojs/alphabot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazojs/alphabot.git"
+  },
+  "github": "https://github.com/lazojs/alphabot",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "maintainers": [
+    {
+      "name": "Jason Strimpel",
+      "email": "jstrimpel@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "node-dir": "0.1.5",
+    "gulp": "3.8.8",
+    "gulp-mocha": "1.0.0",
+    "chai": "1.9.1"
+  },
+  "dependencies": {
+      "lodash": "3.1.0",
+      "node-dir": "0.1.6",
+      "fs-extra": "0.16.3",
+      "async": "0.9.0",
+      "alphabot-component": "0.1.2"
+  }
+}
